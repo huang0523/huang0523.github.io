@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>原子少年 ATOM BOYZ</title>
+<!-- Bootstrap連結 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<!-- CSS連結 -->
+<link rel="stylesheet" href="good.css">
+	<script>
+	x=0
+	function secret(){
+		x++;
+		if(x>=4){
+		document.querySelector("#b").innerHTML = "  168cm";
+		document.querySelector("#c").style.color = "white";
+		}
+	}
+	function over(){
+		document.querySelector("#title2").innerHTML = "如果不點進去你會後悔喔!";
+		document.querySelector("#title2").style.color = "pink";
+	}
+	function unover(){
+		document.querySelector("#title2").innerHTML = "主題曲<原來的少年>YT連結";
+		document.querySelector("#title2").style.color = "#ffd700";
+	}
+
+	function over3(){
+		document.querySelector("#title3").innerHTML = "這裡可以看更多介紹喔";
+		document.querySelector("#title3").style.color = "pink";
+	}
+	function unover3(){
+		document.querySelector("#title3").innerHTML = "原子少年官方維基百科連結";
+		document.querySelector("#title3").style.color = "#ffd700";
+	}
+	function over4(){
+		document.querySelector("#title4").innerHTML = "更多最新資訊看這裡";
+		document.querySelector("#title4").style.color = "pink";
+	}
+	function unover4(){
+		document.querySelector("#title4").innerHTML = "原子少年官方Instagram連結";
+		document.querySelector("#title4").style.color = "#ffd700";
+	}
+	function over5(){
+		document.querySelector("#title5").innerHTML = "快點點進來你在猶豫甚麼";
+		document.querySelector("#title5").style.color = "pink";
+	}
+	function unover5(){
+		document.querySelector("#title5").innerHTML = "原子少年官方Facebook連結";
+		document.querySelector("#title5").style.color = "#ffd700";
+	}
+	function over6(){
+		document.querySelector("#title6").innerHTML = "點進來你會得到快樂";
+		document.querySelector("#title6").style.color = "pink";
+	}
+	function unover6(){
+		document.querySelector("#title6").innerHTML = "原子少年官方推特Twitter連結";
+		document.querySelector("#title6").style.color = "#ffd700";
+	}
+	function rewrite(){
+		s = document.querySelector("#cin").value;
+		if(s=="海王星"){
+			document.querySelector("#bc").innerHTML = s ;
+			document.querySelector("#bc").style.color = "#ffd700";
+			document.querySelector("#new").innerHTML = "海王星";
+			document.querySelector("#new").style.color = "#ffd700";
+			document.querySelector("#hi").innerHTML = "恭喜你答對了 他們合作的超棒!!!" ;
+			document.querySelector("#hi").style.color = "#e0ffff";
+		}
+		else{
+			document.querySelector("#bc").innerHTML = s;
+			document.querySelector("#bc").style.color = "#ffd700";
+			document.querySelector("#new").innerHTML = "海王星";
+			document.querySelector("#new").style.color = "#ffd700";
+			document.querySelector("#hi").innerHTML = "哭哭你答錯了 他們合作的超棒!!!" ;
+			document.querySelector("#hi").style.color = "red";
+		}
+	}
+	function rewrite2(){
+		s = document.querySelector("#cin2").value;
+		if(s=="亞特蘭提斯"){
+			document.querySelector("#bc2").innerHTML = s;
+			document.querySelector("#bc2").style.color = "#ffd700";
+			document.querySelector("#new2").innerHTML = "亞特蘭提斯" ;
+			document.querySelector("#new2").style.color = "#ffd700";
+			document.querySelector("#hi2").innerHTML = "恭喜你答對了 熱可可好聽" ;
+			document.querySelector("#hi2").style.color = "#e0ffff";
+		}
+		else{
+			document.querySelector("#bc2").innerHTML = s;
+			document.querySelector("#bc2").style.color = "#ffd700";
+			document.querySelector("#new2").innerHTML = "亞特蘭提斯" ;
+			document.querySelector("#new2").style.color = "#ffd700";
+			document.querySelector("#hi2").innerHTML = "哭哭你答錯了 熱可可好聽" ;
+			document.querySelector("#hi2").style.color = "red";
+		}
+	}
+	function rewrite3(){
+		s = document.querySelector("#cin3").value;
+		if(s=="火土聯盟"){
+			document.querySelector("#bc3").innerHTML = s;
+			document.querySelector("#bc3").style.color = "#ffd700";
+			document.querySelector("#new3").innerHTML = "火土聯盟" ;
+			document.querySelector("#new3").style.color = "#ffd700";
+			document.querySelector("#hi3").innerHTML = "恭喜你答對了 藍寶堅尼好帥" ;
+			document.querySelector("#hi3").style.color = "#e0ffff";
+		}
+		else{
+			document.querySelector("#bc3").innerHTML = s;
+			document.querySelector("#bc3").style.color = "#ffd700";
+			document.querySelector("#new3").innerHTML = "火土聯盟" ;
+			document.querySelector("#new3").style.color = "#ffd700";
+			document.querySelector("#hi3").innerHTML = "哭哭你答錯了 藍寶堅尼好帥" ;
+			document.querySelector("#hi3").style.color = "red";
+		}
+	}
+	function rewrite4(){
+		s = document.querySelector("#cin4").value;
+		if(s=="何世華"){
+			document.querySelector("#bc4").innerHTML = s;
+			document.querySelector("#bc4").style.color = "#ffd700";
+			document.querySelector("#new4").innerHTML = "何世華" ;
+			document.querySelector("#new4").style.color = "#ffd700";
+			document.querySelector("#hi4").innerHTML = "恭喜你答對了 他超可愛救命" ;
+			document.querySelector("#hi4").style.color = "#e0ffff";
+		}
+		else{
+			document.querySelector("#bc4").innerHTML = s;
+			document.querySelector("#bc4").style.color = "#ffd700";
+			document.querySelector("#new4").innerHTML = "何世華" ;
+			document.querySelector("#new4").style.color = "#ffd700";
+			document.querySelector("#hi4").innerHTML = "哭哭你答錯了 他超可愛救命" ;
+			document.querySelector("#hi4").style.color = "red";
+		}
+	}
+	</script>
+</head>
+<body>
+<body style="background-color:black;">
+<div class="container-fluid">
+<img src="data:image/png;base64,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"width="10%">
+<h3 style="background-color:white;color:black;font-weight:bold;">節目介紹</h3>
+<Hr style="border: 2px solid white;">
+<h5 style="color:white;">《原子少年Atom Boyz》，是2022年臺灣男團選秀節目。由<u style="color:white;">陳嘉樺</u>、<u style="color:white;">周湯豪</u>、<u style="color:white;">坤達</u>、<u style="color:white;">田一德</u>聯合主持。共有80位參賽者，多數來自臺灣，節目將80位參賽者分為八大行星組合，並依每個行星，風格各異的子團互相競逐，將選出2組5人男子音樂組合。日前共計46位確診新型冠狀病毒肺炎的選手與工作人員都陸續康復，節目預計將於5月20日恢復錄製。</h5>
+		<table style="border:1px black dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th width="245"><font size="4"><a href="https://youtu.be/Gv2m5_Pu2Wg" target="_blank"id="title2"onmouseover="over()"onmouseout="unover()"style="color:#ffd700;">主題曲<原來的少年>YT連結</a><font/></th>
+				<th width="245"><font size="4"><a href="https://zh.m.wikipedia.org/zh-tw/%E5%8E%9F%E5%AD%90%E5%B0%91%E5%B9%B4Atom_Boyz" target="_blank" id="title3" onmouseover="over3()" onmouseout="unover3()" style="color:#ffd700;">原子少年官方維基百科連結</a><font/></th>
+				<th width="245"><font size="4"><a href="https://www.instagram.com/atomboyz.official/" target="_blank" id="title4" onmouseover="over4()" onmouseout="unover4()" style="color:#ffd700;">原子少年官方Instagram連結</a><font/></th>
+				<th width="245"><font size="4"><a href="https://www.facebook.com/atomboyz.official/" target="_blank" id="title5" onmouseover="over5()" onmouseout="unover5()" style="color:#ffd700;">原子少年官方Facebook連結</a><font/></th>
+				<th width="245"><font size="4"><a href="https://mobile.twitter.com/atomboyz_" target="_blank" id="title6" onmouseover="over6()" onmouseout="unover6()" style="color:#ffd700;">原子少年官方推特Twitter連結</a><font/></th>
+			</tr>
+		</table>
+<Hr style="border: 2px solid white;">
+<h3 style="background-color:white;color:black;font-weight:bold;">粉絲測驗</h3>
+<Hr style="border: 2px solid white;">
+
+<h5 id="aaa"><span style="color:white;">1.在第二次賽制中，與助力導師陳漢典一起表演"先不要"的是哪一顆星球？</span></h5>
+<h5>
+<input type="text" id="cin"></input>
+<button id="abc" onclick="rewrite();">確認送出並查看答案</button><span style="color:white">  您的答案 ：  <span id="bc" onclick="rewrite();" style="color:black;">_______</span></span><span style="color:black;">___</span><span style="color:white">  正確答案 ：  <span id="new" onclick="rewrite();" style="color:black;">__________</span></span><span style="color:black">___________</span><span id="hi" onclick="rewrite();">   </span>
+</h5>
+<h5 id="bbb"><span style="color:white;">2.由MAX、呂植宇、林佳辰、李哲言、吳昱廷、高有翔私底下組成的團體叫甚麼名字(五字中文全名)？</span></h5>
+<h5>
+<input type="text" id="cin2"></input>
+<button id="abc2" onclick="rewrite2();">確認送出並查看答案</button><span style="color:white">  您的答案 ：  <span id="bc2" onclick="rewrite2();" style="color:black;">_______</span></span><span style="color:black;">___</span><span style="color:white">  正確答案 ：  <span id="new2" onclick="rewrite2();" style="color:black;">__________</span></span><span style="color:black">___________</span><span id="hi2" onclick="rewrite2();">   </span>
+</h5>
+<h5 id="bbb"><span style="color:white;">3.在星球聯盟賽制中，只看導師分數最高分的是哪個聯盟？</span></h5>
+<h5>
+<input type="text" id="cin3"></input>
+<button id="abc3" onclick="rewrite3();">確認送出並查看答案</button><span style="color:white">  您的答案 ：  <span id="bc3" onclick="rewrite3();" style="color:black;">_______</span></span><span style="color:black;">___</span><span style="color:white">  正確答案 ：  <span id="new3" onclick="rewrite3();" style="color:black;">__________</span></span><span style="color:black">___________</span><span id="hi3" onclick="rewrite3();">   </span>
+</h5>
+<h5 id="bbb"><span style="color:white;">4.猜網站作者最喜歡誰(三字中文全名)?  </span>
+<span id="c" onclick="secret()" style="color:white;background-color:#ffd700;padding:5px">HINT.</span><span id="b" onclick="secret()" style="color:white;"> </span></h5>
+<h5>
+<input type="text" id="cin4"></input>
+<button id="abc4" onclick="rewrite4();">確認送出並查看答案</button><span style="color:white">  您的答案 ：  <span id="bc4" onclick="rewrite4();" style="color:black;">_______</span></span><span style="color:black;">___</span><span style="color:white">  正確答案 ：  <span id="new4" onclick="rewrite4();" style="color:black;">__________</span></span><span style="color:black">________________</span><span id="hi4" onclick="rewrite4();">   </span>
+</h5>
+
+
+<Hr style="border: 2px solid white;">
+<h3 style="background-color:white;color:black;font-weight:bold;">行星介紹</h3>
+<Hr style="border: 2px solid white;">
+<!-- 第一部份：標籤分頁的導覽列 -->
+<div class="nav nav-tabs nav-justified">
+<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true" style="background-color:white;color:#93be59;font-weight:bold;">
+地球
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu2" aria-selected="false" style="background-color:#93be59;color:#8a62b8;font-weight:bold;">
+天王星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu3" aria-selected="false" style="background-color:#623fa2;color:#ceffff;font-weight:bold;">
+海王星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu4" aria-selected="false" style="background-color:#807f7d;color:#BDFCC9;font-weight:bold;">
+木星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu5" aria-selected="false" style="background-color:#33384c;color:#f9d76a;font-weight:bold;">
+火星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu6" aria-selected="false" style="background-color:#2d2a2b;color:#7FFFD4;font-weight:bold;">
+土星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu7" aria-selected="false" style="background-color:#fccbc9;color:#ccffff;font-weight:bold;">
+水星
+</button>
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#menu8" aria-selected="false" style="background-color:#ffcc66;color:#87CEEB;font-weight:bold;">
+金星
+</button>
+</div>
+<!-- 第二部份：標籤分頁的內容 -->
+<div class="tab-content">
+	<div class="tab-pane fade show active" id="menu1" style="font-weight:bold;background-color:white;color:#93be59;">
+		<h3  style="font-weight:bold;">地球 Earth</h3><h5>唯一有生命的星球，代表熱情活力</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/02/1646049880891-633d9f6c90dc4f7bb7790bb0b024071e-1200x800.jpg?unShow=false"width="98%">
+		<table style="border:1px white dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.JPM<font/></th>
+				<th><font size="4">舞蹈 with.Uranus<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/SJpb-tM4aKw;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/yD37e-trH7Q;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/F71FBW4dQZ8;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/6q4350HEKvQ" target="_blank" style="color:#93be59;">https://youtu.be/6q4350HEKvQ</a></li>
+			<li>形象影片  <a href="https://youtu.be/pwh7s5TEHn8" target="_blank" style="color:#93be59;">https://youtu.be/pwh7s5TEHn8</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent011/" target="_blank" style="color:#93be59;">https://www.mirrormedia.mg/story/20220524ent011/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110014&cno=40124&m=5&p=739" target="_blank" style="color:#93be59;">https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110014&cno=40124&m=5&p=739</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu2" style="background-color:#93be59;color:#8a62b8;font-weight:bold;">
+		<h3  style="font-weight:bold;">天王星 Uranus</h3><h5>以天空之神命名，獨特的王者風範</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/03/1646110165791-4ad7ed245f7045acbbda816c10767825-1200x800.jpeg?unShow=false"width="98%">
+		<table style="border:1px #93be59 dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.Nickthereal<font/></th>
+				<th><font size="4">舞蹈 with.Earth<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/hLEwGO6p-A8;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/zqf7azVfnrE;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/F71FBW4dQZ8;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/id2_sEwgASo" target="_blank" style="color:#8a62b8;">https://youtu.be/id2_sEwgASo</a></li>
+			<li>形象影片  <a href="https://youtu.be/Qx-HXc_GCEQ" target="_blank" style="color:#8a62b8;">https://youtu.be/Qx-HXc_GCEQ</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent016/" target="_blank" style="color:#8a62b8;">https://www.mirrormedia.mg/story/20220524ent016/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110018&cno=40127&m=5&AdSource=AD11" target="_blank" style="color:#8a62b8;">https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110018&cno=40127&m=5&AdSource=AD11</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu3" style="background-color:#623fa2;color:#ceffff;font-weight:bold;">
+	<h3  style="font-weight:bold;">海王星 Neptune</h3><h5>最遠最冷的行星，高冷個性團</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/02/1645858619299-f5f52467a52f42fc83a6c3a17601e899-1200x673.jpeg?unShow=false"width="98%">
+		<table style="border:1px #623fa2 dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.陳漢典<font/></th>
+				<th><font size="4">舞蹈 with.Jupiter<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/7MpVEBQWXkA;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/HjvFmmxEfPc;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/jx5ZUWnfLpM;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/WbZtX4FTe7s" target="_blank" style="color:#ceffff;">https://youtu.be/WbZtX4FTe7s</a></li>
+			<li>形象影片  <a href="https://youtu.be/CAb-0SSITek" target="_blank" style="color:#ceffff;">https://youtu.be/CAb-0SSITek</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent013/" target="_blank" style="color:#ceffff;">https://www.mirrormedia.mg/story/20220524ent013/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110017&cno=40126&m=5&AdSource=AD11" target="_blank" style="color:#ceffff;">https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110017&cno=40126&m=5&AdSource=AD11</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu4" style="background-color:#807f7d;color:#BDFCC9;font-weight:bold;">
+		<h3  style="font-weight:bold;">木星 Jupiter</h3><h5>體積最大的星球，團員平均身高185</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/02/1645693097043-e79da09fdc114ffe82e1df9735670cc7-1200x630.jpeg?unShow=false"width="98%">
+		<table style="border:1px #807f7d dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.Ella<font/></th>
+				<th><font size="4">舞蹈 with.Neptune<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/6tVpou9xPyc;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/vpeOhVfPwqs;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/jx5ZUWnfLpM;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/4nh4v3PaH-c" target="_blank" style="color:#BDFCC9;">https://youtu.be/4nh4v3PaH-c</a></li>
+			<li>形象影片  <a href="https://youtu.be/3SNF_vllXw8" target="_blank" style="color:#BDFCC9;">https://youtu.be/3SNF_vllXw8</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent017/" target="_blank" style="color:#BDFCC9;">https://www.mirrormedia.mg/story/20220524ent017/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110013&cno=40123&AdSource=AD12&m=5&p=13" target="_blank" style="color:#BDFCC9;">https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110013&cno=40123&AdSource=AD12&m=5&p=13</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu5" style="background-color:#33384c;color:#f9d76a;font-weight:bold;">
+		<h3  style="font-weight:bold;">火星 Mars</h3><h5>以戰神為名的行星，代表男人野性魅力</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/03/1646289229988-a9640354ed9a4610ac54ec16dff1d8e6-1200x800.jpg?unShow=false"width="98%">
+		<table style="border:1px #33384c dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.坤達<font/></th>
+				<th><font size="4">舞蹈 with.Saturn<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/TiiCmoXOYhs;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/_N6qeVUT3i4;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/UJAmsSFalUg;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/I7KwBW7uau8" target="_blank" style="color:#f9d76a;">https://youtu.be/I7KwBW7uau8</a></li>
+			<li>形象影片  <a href="https://youtu.be/NNNyV7oQfQw" target="_blank" style="color:#f9d76a;">https://youtu.be/NNNyV7oQfQw</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent015/" target="_blank" style="color:#f9d76a;">https://www.mirrormedia.mg/story/20220524ent015/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110019&AdSource=AD12&m=5&p=13" target="_blank" style="color:#f9d76a;">https://www.50-shop.com/Shop/itemDetail.aspx?mNo1=02159110019&AdSource=AD12&m=5&p=13</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu6" style="background-color:#2d2a2b;color:#7FFFD4;font-weight:bold;">
+	<h3  style="font-weight:bold;">土星 Saturn</h3><h5>土星環和諧共振環繞，象徵舞蹈最強</h5>
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/02/1645098544571-80548289e33d45c8be462909f891897a-1200x647.png?unShow=false"width="98%">
+		<table style="border:1px #2d2a2b dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.田一德<font/></th>
+				<th><font size="4">舞蹈 with.Mars<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/6AgwwpRbc9M;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/w3XpmQg0Jjw;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/UJAmsSFalUg;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/49xa4_F7Jlc" target="_blank" style="color:#7FFFD4;">https://youtu.be/49xa4_F7Jlc</a></li>
+			<li>形象影片  <a href="https://youtu.be/_IxKX3t69yE" target="_blank" style="color:#7FFFD4;">https://youtu.be/_IxKX3t69yE</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent010/" target="_blank" style="color:#7FFFD4;">https://www.mirrormedia.mg/story/20220524ent010/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110012&cno=40122&kw=%e5%9c%9f%e6%98%9f&m=5&p=13" target="_blank" style="color:#7FFFD4;">https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110012&cno=40122&kw=%e5%9c%9f%e6%98%9f&m=5&p=13</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu7" style="background-color:#fccbc9;color:#ccffff;font-weight:bold;">
+	<h3  style="font-weight:bold;">水星 Mercury</h3><h5>最小顆的行星，平均年齡最小</h5>
+	<img src="https://media.nownews.com/nn_media/thumbnail/2022/03/1646612635936-8e37d829a7034cc5bc70b78e343ead94-1200x800.jpg?unShow=false"width="98%">
+		<table style="border:1px #fccbc9 dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.GEmma<font/></th>
+				<th><font size="4">舞蹈 with.Venus<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/5qQUh7Zpcjo;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/69SXwboufDA;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/i-Tjvy_EPBU;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/7xNiCZ7Csuk" target="_blank" style="color:#ccffff;">https://youtu.be/7xNiCZ7Csuk</a></li>
+			<li>形象影片  <a href="https://youtu.be/dnLdDILJLyY" target="_blank" style="color:#ccffff;">https://youtu.be/dnLdDILJLyY</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent014/" target="_blank" style="color:#ccffff;">https://www.mirrormedia.mg/story/20220524ent014/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110016&cno=40125&kw=%e6%b0%b4%e6%98%9f&m=5&p=13" target="_blank" style="color:#ccffff;">https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110016&cno=40125&kw=%e6%b0%b4%e6%98%9f&m=5&p=13</a></li>			
+		</ul>
+	</div>
+	<div class="tab-pane fade" id="menu8" style="background-color:#ffcc66;color:#87CEEB;font-weight:bold;">
+	<h3  style="font-weight:bold;">金星 Venus</h3><h5>英文為Venus，可帥可美的中性魅力</h5>
+	<img src="https://media.nownews.com/nn_media/thumbnail/2022/03/1646873679310-5bee59b4617a4393b23d40073bf7ad99-1200x763.jpg?unShow=false"width="98%">
+		<table style="border:1px #ffcc66 dashed;" cellpadding="1" border="1">
+			<tr border="10px s">
+				<th><font size="4">行星初現<font/></th>
+				<th><font size="4">導師合作 ft.愛紗<font/></th>
+				<th><font size="4">舞蹈 with.Mercury<font/></th>
+			</tr>
+			<tr>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/lq7ULGCRxzs;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/BhlIose0ykc;"></iframe></td>
+				<td><iframe width="400" height="300" src="https://www.youtube.com/embed/i-Tjvy_EPBU;"></iframe></td>
+			</tr>
+		</table>
+		<h4 style="font-weight:bold;">相關連結</h4>
+		<ul>
+			<li>成團影片  <a href="https://youtu.be/4gj7yM2y5tg" target="_blank" style="color:#87CEEB;">https://youtu.be/4gj7yM2y5tg</a></li>
+			<li>形象影片  <a href="https://youtu.be/FoKbuAuMljQ" target="_blank" style="color:#87CEEB;">https://youtu.be/FoKbuAuMljQ</a></li>
+			<li>報導  <a href="https://www.mirrormedia.mg/story/20220524ent012/" target="_blank" style="color:#87CEEB;">https://www.mirrormedia.mg/story/20220524ent012/</a></li>
+			<li>官方團T購買連結  <a href="https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110015&cno=40442&kw=%e9%87%91%e6%98%9f&m=5&p=13" target="_blank" style="color:#87CEEB;">https://www.50-shop.com/shop/itemDetail.aspx?mNo1=02159110015&cno=40442&kw=%e9%87%91%e6%98%9f&m=5&p=13</a></li>			
+		</ul>
+	</div>
+
+<Hr style="border: 2px solid white;">
+</div>
+
+
+
+</body>
+
+</html>
